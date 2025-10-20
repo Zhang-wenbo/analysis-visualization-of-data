@@ -86,11 +86,11 @@ Numpy 数组 (ndarray) 的核心特性
 
 矩阵是一个由 行（row）和 列（column）排列成的矩形数组
 
-$ A = \begin{bmatrix}
+$$ A = \begin{bmatrix}
 1 & 2 & 3 \\
 4 & 5 & 6
 \end{bmatrix}
- $
+ $$
 
 形状（shape）：这个矩阵有 2行3列，记作 2x3 矩阵
 
@@ -100,10 +100,10 @@ $ A = \begin{bmatrix}
 
 | 矩阵类型 | 定义 | 例子 |
 | --- | --- | --- |
-| 零矩阵 | 所有元素为0 | $ \begin{bmatrix} 0 & 0 \\ 0 & 0  \end{bmatrix} $ |
-| 单位矩阵 | 对角线上为1，其余为0 | $ \begin{bmatrix} 1 & 0 \\ 0 & 1  \end{bmatrix} $ |
-| 对角矩阵 | 只有对角线有非零值 | $ \begin{bmatrix} 2 & 0 \\ 0 & 3  \end{bmatrix} $ |
-| 对称矩阵 | A = A<sup>T</sup> | $ \begin{bmatrix} 1 & 2 \\ 2 & 3  \end{bmatrix} $ |
+| 零矩阵 | 所有元素为0 | $$ \begin{bmatrix} 0 & 0 \\ 0 & 0  \end{bmatrix} $$ |
+| 单位矩阵 | 对角线上为1，其余为0 | $$ \begin{bmatrix} 1 & 0 \\ 0 & 1  \end{bmatrix} $$ |
+| 对角矩阵 | 只有对角线有非零值 | $$ \begin{bmatrix} 2 & 0 \\ 0 & 3  \end{bmatrix} $$ |
+| 对称矩阵 | A = A<sup>T</sup> | $$ \begin{bmatrix} 1 & 2 \\ 2 & 3  \end{bmatrix} $$ |
 
 
 ## 5.ndarray 的数据类型

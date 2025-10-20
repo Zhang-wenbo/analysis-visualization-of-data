@@ -100,10 +100,10 @@ $$ A = \begin{bmatrix}
 
 | 矩阵类型 | 定义 | 例子 |
 | --- | --- | --- |
-| 零矩阵 | 所有元素为0 | $$ \begin{bmatrix} 0 & 0 \\ 0 & 0  \end{bmatrix} $$ |
-| 单位矩阵 | 对角线上为1，其余为0 | $$ \begin{bmatrix} 1 & 0 \\ 0 & 1  \end{bmatrix} $$ |
-| 对角矩阵 | 只有对角线有非零值 | $$ \begin{bmatrix} 2 & 0 \\ 0 & 3  \end{bmatrix} $$ |
-| 对称矩阵 | A = A<sup>T</sup> | $$ \begin{bmatrix} 1 & 2 \\ 2 & 3  \end{bmatrix} $$ |
+| 零矩阵 | 所有元素为0 | $ \begin{bmatrix} 0 & 0 \\ 0 & 0 \end{bmatrix} $ |
+| 单位矩阵 | 对角线上为1，其余为0 | $ \begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix} $ |
+| 对角矩阵 | 只有对角线有非零值 | $ \begin{bmatrix} 2 & 0 \\ 0 & 3 \end{bmatrix} $ |
+| 对称矩阵 | A = A<sup>T</sup> | $ \begin{bmatrix} 1 & 2 \\ 2 & 3 \end{bmatrix} $ |
 
 
 ## 5.ndarray 的数据类型
